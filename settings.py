@@ -2,7 +2,7 @@
 import bpy
 from bpy.types import AddonPreferences
 
-PYPATH = bpy.app.binary_path_python
+PYPATH = bpy.app.binary_path
 import sverchok_open3d
 from sverchok.dependencies import draw_message
 from sverchok_open3d.dependencies import ex_dependencies, pip, ensurepip
